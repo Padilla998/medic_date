@@ -1,7 +1,7 @@
 <?php
 try
 {
-	$bdd = new PDO('mysql:host=35.222.8.186;dbname=calendar;charset=utf8', 'root', '132546');
+	$bdd = new PDO('mysql:host=35.237.47.250;dbname=calendar;charset=utf8', 'admin', 'usbw');
 }
 catch(Exception $e)
 {
