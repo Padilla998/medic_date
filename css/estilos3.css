@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #b7efcd;
+}
+
+h1{
+    color: #10375c;
+    text-align: center;
+}
+
+.citas{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    position: auto;
+}
+.citas:hover{
+    color: #b2ebf2;
+    background-color: #dd2c00;
+    
+  }
+

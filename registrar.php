@@ -18,7 +18,7 @@ $resultado = mysqli_query($conexion, $insertar) or die (mysqli_error($conexion))
 if (!$resultado){
     echo "Error";
 }else{
-    echo ' Datos guardados';
+    header('Location: PerfilDoctores.html');
 }
 
 mysqli_close($conexion);
